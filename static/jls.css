@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body{
+    margin-top: 175px;
+    background-image: url(https://images.unsplash.com/photo-1617203443952-6d2619f7ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8anVkZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Mooli', sans-serif;
+}
+.main{
+    padding-top: 25px;
+}
+.mainb{
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+#form{
+    margin-bottom: 250px;
+}
+.signup, .forgot{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}

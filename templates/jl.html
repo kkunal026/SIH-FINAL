@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='jls.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-5 border border-secondary rounded bg-light mt-4 align-items-center" id="form">
+                <h1 class="display-3 text-center">Judge Log-In</h1>
+                <form action="#nil" class="align-items-center">
+                    <div class="form-group fs-5 my-4 main">
+                        <label for="email">ID</label>
+                        <input type="email" id="email" placeholder="Enter your ID" class="form-control">
+                    </div>
+                    <div class="form-group fs-5 my-4 main">
+                        <label for="pw">Password</label>
+                        <input type="password" id="pw" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="mainb text-center">
+                        <a href="/judge/" class="btn btn-outline-secondary my-2" type="submit">Sign In</a>
+                        <a href="/jl/" class="btn btn-outline-secondary my-2" type="submit">Reset</a>
+
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="forgot col-6">
+                            <a href="">Forgot Password?</a>
+                        </div>
+                        <div class="signup col-6">
+                            <a href="/js/" class="link-primary">Sign Up</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col">
+            </div>
+            </form>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

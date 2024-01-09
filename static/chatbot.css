@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+  margin: 0;
+  padding: 0%;
+}
+.chatbot {
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  .top-bar {
+    width: calc(100% - 40px);
+    background-color: rgba(30, 30, 30, 1);
+    margin-bottom: 107px;
+    padding: 18px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rectangle-4137 {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 100px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .title {
+    font-family: 'Mooli', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+    margin-right: 20px;
+  }
+  .navigation {
+    background-color: rgba(30, 30, 30, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tab {
+    font-family: 'Mooli', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 40px;
+  }
+  .textfield {
+    border-radius: 6px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 184px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  .text {
+    font-family: 'Mooli', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+    margin-right: 4px;
+  }
+  .ic-search {
+    padding: 1.67px 1.35px 1.37px 1.67px;
+    display: flex;
+    align-items: center;
+    width: 16.98px;
+    height: 16.96px;
+  }
+  .shape {
+    width: 100%;
+    align-self: stretch;
+    object-fit: cover;
+  }
+  .hero {
+    margin-bottom: 39px;
+    margin-left: 522px;
+    position: relative;
+  }
+  .chatbot-img {
+    width: 396px;
+    height: 237px;
+    position: relative;
+  }
+  .title-two {
+    width: 520px;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    position: absolute;
+    left: -428px;
+    top: 69px;
+  }
+  .title-three {
+    width: 520px;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    position: absolute;
+    right: -409px;
+    top: 69px;
+  }
+  .main-box {
+    margin-bottom: 92px;
+    margin-left: 79px;
+    position: relative;
+  }
+  .title-four {
+    width: 300px;
+    z-index: 2;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    top: 94px;
+  }
+  .flex-wrapper-one {
+    background-color: rgba(34, 35, 39, 1);
+    border-radius: 75px;
+    padding: 66px 53px 133px 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  .frame {
+    margin-bottom: 66px;
+    margin-left: 1108px;
+    padding: 5.47px 5.47px 5.48px 5.48px;
+    display: flex;
+    align-items: center;
+  }
+  .group {
+    width: 35.05px;
+    height: 35.05px;
+  }
+  .relative-wrapper-one {
+    position: relative;
+  }
+  .tell-me-whats-on-your-mind-i-have-lim {
+    height: 167px;
+    width: 1175px;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    position: relative;
+  }
+  .flex-wrapper-two {
+    /* background-color: rgba(59, 62, 69, 1);
+    border-radius: 87px;
+    padding: 32px 37px 19px 59px; */
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 10px;
+    bottom: -82px;
+  }
+  #prompt-box{
+    background-color: rgba(59, 62, 69, 1);
+    border-radius: 87px;
+    padding: 32px 37px 19px 59px;
+    color: white;
+    font-size: 2rem;
+    height: 48px;
+    width: 1000px;
+  }
+  .btn-sbmt{
+    border: none;
+    appearance: none;
+    background-color: inherit;
+  }
+  .btn-sbmt:hover{
+    cursor: pointer;
+  }
+  /* .enter-a-prompt-here {
+    height: 48px;
+    width: 412px;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(98, 105, 128, 1);
+    display: flex;
+    margin-top: 1px;
+    margin-right: 583px;
+  } */
+  .frame-two {
+    padding: 4.79px 5.16px 4.78px 4.41px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20px;
+  }
+  .relative-wrapper-four {
+    margin-bottom: 49px;
+    margin-left: 98px;
+    position: relative;
+  }
+  .title-five {
+    width: 520px;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    left: -53px;
+    top: 50px;
+  }
+  .flex-wrapper-three {
+    background-color: rgba(34, 35, 39, 1);
+    border-radius: 28px;
+    padding: 175px 64px 65px 45px;
+    position: relative;
+  }
+  .rectangle-4157 {
+    width: 1154px;
+    height: 745px;
+    padding: 40px;
+    padding-top: 25px;
+    text-align: justify;
+    display: flex;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    font-size: 2rem;
+    background-color: rgba(59, 62, 69, 1);
+    border-radius: 28px;
+  }
+  .image-1 {
+    width: 1440px;
+    height: 405px;
+  }
+  footer{
+    background-color: #535353;
+    color: white;
+}
+.container-1{
+    /* max-width: 1300px; */
+    width: 100vw;
+    /* margin: 0 auto ;
+    padding: 10px; */
+}
+.footer-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-lists ul{
+    list-style: none;
+}
+.link-lists ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.link-lists h3{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.news-letter h3{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.news-letter input{
+    text-align: center;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
+.icon-container{
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='chatbot.css') }}">
+</head>
+<body>
+    <div class="chatbot">
+        <div class="top-bar">
+          <img
+            alt=""
+            class="rectangle-4137"
+            src="https://static.overlay-tech.com/assets/6445f612-10ee-4363-bcec-22495aca045c.png"
+          />
+          <p class="title">Pocket Justitia</p>
+          <div class="navigation">
+            <a href="/" class="tab">Home</a>
+            <a href="" class="tab">About</a>
+            <a href="" class="tab">Contact</a>
+            <div class="textfield">
+              <p class="text">Search in site</p>
+              <div class="ic-search">
+                <img
+                  alt=""
+                  class="shape"
+                  src="https://static.overlay-tech.com/assets/0d51513b-5fd0-482b-b2c9-c3260cf10108.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero">
+          <img
+            alt=""
+            class="chatbot-img"
+            src="https://static.overlay-tech.com/assets/97f6fe2e-81cf-45c3-84c9-dd0983167201.png"
+          />
+          <p class="title-two">Legal</p>
+          <p class="title-three">Chatbot</p>
+        </div>
+        <div class="main-box">
+          <p class="title-four">Hello again</p>
+          <div class="flex-wrapper-one">
+            <div class="frame">
+              <img
+                alt=""
+                class="group"
+                src="https://static.overlay-tech.com/assets/6422f496-5ff9-48df-8104-e5868d0a5c74.svg"
+              />
+            </div>
+            <div class="relative-wrapper-one">
+              <p class="tell-me-whats-on-your-mind-i-have-lim">
+                Tell me what&#039;s on your mind . I have limitations
+                and won&#039;t always get it right, but your
+                feedback will help me to improve.
+              </p>
+              <form action="{{ url_for('chatbot') }}"" method="POST">
+              <div class="flex-wrapper-two">
+                <input type="text" 
+                    id="prompt-box"
+                    name="input_text"
+                    placeholder="Enter your prompt here">
+                <!-- <p class="enter-a-prompt-here">
+                  Enter a prompt here
+                </p> -->
+              </form>
+                <button class="btn-sbmt" type="submit">
+                    <div class="frame-two">
+                        <img
+                          alt=""
+                          class="shape"
+                          src="https://static.overlay-tech.com/assets/8f2e4858-a634-4e42-ac9e-1c7f71a2281a.svg"
+                        />
+                      </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative-wrapper-four">
+          <p class="title-five">Response : 
+          </p>
+          <div class="flex-wrapper-three">
+            <div class="rectangle-4157">
+                {% if generated_text %}
+                <p>{{ generated_text }}<p>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+        <!-- <img
+          alt=""
+          class="image-1"
+          src="https://static.overlay-tech.com/assets/6b15b695-e1a8-4b82-b0b6-fc4740155fd0.png"
+        /> -->
+        <footer>
+            <div class="footer-container container-1">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="link-lists">
+                    <h3>Info</h3>
+                    <ul>
+                        <li>Forms</li>
+                        <li>Recruitment</li>
+                        <li>Management Tools</li>
+                        <li>Associations</li>
+                    </ul>
+                </div>
+                <div class="link-lists">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li>Services</li>
+                        <li>Newsletter</li>
+                        <li>Site Map</li>
+                        <li>Help Videos</li>
+                        <li>Manuals</li>
+                    </ul>
+                </div>
+                <div class="link-lists">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li>Terms and Conditions</li>
+                        <li>Copyright Policy</li>
+                        <li>Privacy Policy</li>
+                        <li>Screen Reader Access</li>
+                        <li>Disclaimer</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+      </div>
+</body>
+</html>
