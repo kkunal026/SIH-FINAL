@@ -25,7 +25,7 @@ Pocket Justitia is an innovative pre-case hearing management app designed to str
   
 #### Getting Started:
 
-Clone the repository: git clone https://github.com/kkunalakakk@gmail.com/SIH-FINAL
+Clone the repository: git clone https://github.com/kkunal026/SIH-FINAL
 
 #### Contributing:
 
@@ -33,7 +33,7 @@ We welcome contributions from the community! Please see the CONTRIBUTING.md file
 
 #### Contact:
 
-For any questions or feedback, feel free to contact us at [Provide an email address or other contact information].
+For any questions or feedback, feel free to contact us at kunalakakk@gmail.com .
 
 #### Additional Notes:
 
